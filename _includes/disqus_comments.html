@@ -1,4 +1,4 @@
-{% if page.comments != false %}
+{% if page.comments != false and jekyll.environment == "production" %}
 
 <div class="post-comments">
     <div id="disqus_thread"></div>
