@@ -1,0 +1,259 @@
+/* Basic Styling */
+html {
+  /* Add a background colour */
+  background-color: #ffffff;
+  /* State the default font size to use rem later on */
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.03rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.03rem;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+li {
+  font-size: 1.25rem;
+  /*line-height: 1.75rem;*/
+}
+
+a {
+  color: #976b71;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 0.75rem;
+  font-family: 'PT Sans', sans-serif;
+  color: #848484;
+  text-align: right;
+}
+
+.enable-js {
+  line-height: 1.75rem;
+}
+
+/* Color bar (because why not?) */
+.color-bar {
+  width: 100%;
+  height: 1rem;
+  background-color: #529ECC;
+}
+
+/* Main Container */
+
+.center-container {
+  margin-top: 3rem;
+
+  /* Create a flexbox */
+  display: flex;
+  /* Offset container horizontally */
+  justify-content: space-around;
+  /*margin-bottom: 2rem;*/
+  /* Offset container vertically */
+  align-items: center;
+}
+
+.content-container {
+  width: 40rem;
+}
+
+/* Profile Card */
+.profile-card {
+  /* Make the profile card text have a sans-serif font */
+  font-family: 'PT Sans', sans-serif;
+  /* Add separator beneath the profile card */
+  border-bottom: 2px solid #d6d9dc;
+}
+
+.profile-card-title {
+  /* Reduce the space with the subtitle */
+  margin-bottom: 0;
+}
+
+.profile-card-subtitle {
+  font-weight: bolder;
+  color: #848484;
+  /* Reduce the space with the title */
+  margin-top: 0;
+  /* Reduce the space with the action line */
+  margin-bottom: 0;
+  line-height: 1.75rem;
+}
+
+.profile-card-action {
+  line-height: 2rem;
+  /* Reduce the space with the subtitle line */
+  margin-top: 0;
+  /* Reduce the space with the profile card separator */
+  margin-bottom: 1rem;
+}
+
+/* Navbar */
+nav {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  border-bottom: 2px solid #d6d9dc;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin: 0.5rem 0;
+  padding: 0;
+  display: flex;
+}
+
+nav > ul > li {
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+nav > ul > li > a {
+  color: #976b71;
+}
+
+/* Main Content */
+.main-content {
+  /* Make the main content have a serif font */
+  font-family: 'PT Serif', 'Times New Roman', serif;
+}
+
+.main-content > .row {
+  /* Add a separator beneath each row */
+  border-bottom: 2px solid #d6d9dc;
+}
+
+.main-content > .row > h2 {
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* Recent Projects */
+.recent-project > .project-title {
+  font-size: 1.4rem;
+  /* Reduce the space with project text */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.recent-project > .project-title > .project-name {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+
+.recent-project > .project-title > .project-languages {
+  font-weight: normal;
+}
+
+.recent-project > .project-details {
+  /* Reduce the space with the project name */
+  margin-top: 0.25rem;
+  /* Reduce the space with the project links */
+  margin-bottom: 0;
+}
+
+.recent-project > .project-links {
+  /* Reduce the space with the project details */
+  margin-top: 0;
+}
+
+/* Projects */
+.project {
+  border-top: 1px solid #d6d9dc;
+}
+
+.project > .project-title {
+  /* Reduce the space with project dates */
+  margin-bottom: 0;
+}
+
+.project > .project-title > .project-name {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+
+.project > .project-title > .project-languages {
+  font-weight: normal;
+}
+
+.project > .project-dates {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+  /* Reduce the space with project title */
+  margin-top: 0;
+  /* Reduce the space with project details */
+  margin-bottom: 0;
+}
+
+.project > .project-details {
+  /* Reduce the space with the project dates */
+  margin-top: 0;
+  /* Reduce the space with the project links */
+  margin-bottom: 0;
+}
+
+.project > .project-links {
+  /* Reduce the space with the project details */
+  margin-top: 0;
+}
+
+/* Blog Post List */
+.blog-intro {
+  font-family: 'PT Sans', sans-serif;
+  color: #aeb1b4;
+}
+
+.post-list {
+
+  .post {
+    border-top: 1px solid #d6d9dc;
+
+    .post-date {
+      font-family: 'PT Sans', sans-serif;
+      font-weight: bold;
+      color: #9b9b9b;
+
+      margin-top: 1rem;
+      margin-bottom: 0;
+    }
+
+    .post-title {
+      font-family: 'PT Sans', sans-serif;
+
+      margin-top: 0.5rem;
+      margin-bottom: 0;
+    }
+
+    .post-details {
+      margin-top: 0.5rem;
+    }
+  }
+
+}
+
+/* Blog Post */
+
+article {
+  .post-content {
+    border-bottom: 2px solid #d6d9dc;
+  }
+
+  .post-comments {
+    border-bottom: 2px solid #d6d9dc;
+  }
+}
