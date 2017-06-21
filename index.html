@@ -20,16 +20,3 @@ permalink: /
     </ul>
     <p>I also quite regularly attend hackathons, so you may see me around at them. Outside of computing, I like to play <a href="https://www.youtube.com/watch?v=aWNamssrZAY">fives</a> (squash, but with your hands!) and read sci-fi novels. </p>
 </div>
-<div class="row">
-    <h2>Projects</h2>
-    <p>Below are a few of my projects. You can find my other projects <a href="">here</a>.</p>
-
-    {% assign projects = site.projects | where: "featured", "true" %}
-    {% for project in projects %}
-    <div class="recent-project">
-        <h3 class="project-title"><span class="project-name">{{ project.name }}</span>{% if project.languages %}<span class="project-languages"> / {{ project.languages }}</span>{% endif %}</h3>
-        <p class="project-details">{{ project.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-        <p class="project-links">{% if project.links %}{% for link in project.links %}<a href="{{ link.url }}">{{ link.text }}</a>{% unless forloop.last %} | {% endunless %}{% endfor %}{% endif %}</p>
-    </div>
-    {% endfor %}
-</div>
