@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/kz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://iamkelv.in
+  * I am kz (https://keybase.io/kz) on keybase.
+  * I have a public key with fingerprint 9F70 31A9 2EC5 E1D6 3E49  CCF5 CDD7 72B5 8085 E793
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "9f7031a92ec5e1d63e49ccf5cdd772b58085e793",
+            "host": "keybase.io",
+            "key_id": "cdd772b58085e793",
+            "kid": "01014b1e52c4d6e18604d01da1991024c731233f9663b39c29a3178f9ad1b1c8b0950a",
+            "uid": "63f2d8699938005b9812964d1297cc19",
+            "username": "kz"
+        },
+        "service": {
+            "hostname": "iamkelv.in",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1434834503,
+    "expire_in": 157680000,
+    "prev": "9bca5f08a2d48412c984ef58cf71078aca3f6fd9d1b632120c3c0c4ac8ae6009",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMIXAnicbVJbSBRRGN41L7WUCSl2gYgxe9r0nDlzO2uC0IOFRFJ0I2WbOXNmnVZ3
+tp1xbTWJIB8qfIgwULtakiGFImWFYppdoMBMzMREyy5IoBTYQ2Q2I/bWyzn83/99
+33/h71+1zOVxV3om1y3f5n/tftmLy137at7mVzGKocYYXxUTpIufpocCNBKO6CGL
+8TFYEwGCMmYp4SlUBUQ5TIjGE1UVRVbhJSDxVMSI8TIlhukobBtFNmmWbtiYHfh1
+1Ub/ww8uJgAEkFMg5VnCqQKFkgA4FUBVhhhDwHJERJBFSMOCgBSECYtlBEVJw7IK
+FUgkBWAeyLZd+aKdgDRWlQSMMZIA4BUsQRYLnGq/IiEQO0STRkJyGXV6rWSqvYwd
+R3VCneGdGZZyulwWpKXRLD1ka8IRwzKIUWrjJZYVNn2OzoqFHWIFVfxLFn5FD6n2
+/mxFlEZM3QgxPmgziaU7npBDnIQ4HiAvQ4+H9Qj16w6DFwW7WQCcOjTqbF0hMq8B
+SWZVTuIgS7DEUY2XiCZCIEoykZEmaCq2VyAgFrKAIAIIJxNJpgIAzpQmPRYyGB9n
+tykHbEtTD4RkqzxCmeq+x0XxLrfHlZgQ51yAy7Mi5d9d7OpOWqCF5F7fqYytnWnN
+he4TxQtd4mDre1+s7A5xsXtS27LTrmS2H16Zxy7cbIrMzP50J3WPNkQDM2xTUJx7
+sPvyu2dr5zfmdv74siGAiwo+Z9foD2emq4rjfjVOGMkp809ri7OOeI66p5KGsrZs
+qmDuzl+saPUmj6R/uq7Hc2Jrna/UO/L844WK9U92nsM3spvbYvHt9WWwIWEq92te
+4sz4QMbejuHR+LQ/tYPR3OLzj7KHMw/UjU/UtLhyescmCy7Vx/3eYZ59RV5Yh4Kp
+4fyTjWty4r61IPPNmavpPdPp1d1TJQkHhzpiq0e6uLn7s/2nN+8vuDXGDPRc463t
+H25/z/gLOb0how==
+=1vaV
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kz
+
+==================================================================
