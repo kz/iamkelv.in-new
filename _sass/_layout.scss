@@ -94,7 +94,7 @@ footer {
 figure {
   // Prevent an issue where a long code line would remove the side paddings of .center-container
   display: block;
-  overflow-x: scroll;
+  overflow-x: auto;
   margin: 0;
 }
 
