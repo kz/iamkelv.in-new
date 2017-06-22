@@ -4,6 +4,8 @@ html {
   background-color: #ffffff;
   /* State the default font size to use rem later on */
   font-size: 16px;
+  /* Prevent scrollbar from repositioning content */
+  overflow-y: scroll;
 }
 
 h1 {
