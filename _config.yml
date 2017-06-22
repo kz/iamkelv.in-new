@@ -32,6 +32,8 @@ collections:
 markdown: kramdown
 plugins:
   - jekyll-feed
+sass:
+  style: compressed
 
 include: [".well-known"]
 # Exclude from processing.

@@ -1,3 +1,5 @@
+@import "_flex";
+
 /* Basic Styling */
 html {
   // Add a background colour
@@ -62,11 +64,11 @@ footer {
   margin-top: 3rem;
 
   // Create a flexbox
-  display: flex;
+  @include flexbox();
   // Offset container horizontally
-  justify-content: space-around;
+  @include justify-content(space-around);
   // Offset container vertically
-  align-items: center;
+  @include align-items(center);
 }
 
 .content-container {
@@ -115,13 +117,13 @@ nav > ul {
   list-style-type: none;
   margin: 0.5rem 0;
   padding: 0;
-  display: flex;
+  @include flexbox();
 }
 
 nav > ul > li {
-  flex: 1;
-  align-items: center;
-  justify-content: space-between;
+  @include flex(1);
+  @include align-items(center);
+  @include justify-content(space-between);
   text-align: center;
 }
 
