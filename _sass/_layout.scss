@@ -61,7 +61,18 @@ footer {
 /* Main Container */
 
 .center-container {
-  margin-top: 3rem;
+  @media print {
+    margin-top: 0;
+  }
+  @media screen and (max-width: 760px) {
+    margin-top: 0.5rem;
+  }
+  @media screen and (min-width: 760px) {
+    margin-top: 3rem;
+  }
+
+  // Make the sides nicer on small screens
+  padding: 0 1rem;
 
   // Create a flexbox
   @include flexbox();
@@ -72,7 +83,19 @@ footer {
 }
 
 .content-container {
-  width: 40rem;
+  @media (min-width: 640px) {
+    width: 40rem;
+  }
+  @media (max-width: 640px) {
+    width: 100%
+  }
+}
+
+figure {
+  // Prevent an issue where a long code line would remove the side paddings of .center-container
+  display: block;
+  overflow-x: scroll;
+  margin: 0;
 }
 
 /* Profile Card */
