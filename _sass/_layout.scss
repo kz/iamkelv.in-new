@@ -1,10 +1,10 @@
 /* Basic Styling */
 html {
-  /* Add a background colour */
+  // Add a background colour
   background-color: #ffffff;
-  /* State the default font size to use rem later on */
+  // State the default font size to use rem later on
   font-size: 16px;
-  /* Prevent scrollbar from repositioning content */
+  // Prevent scrollbar from repositioning content
   overflow-y: scroll;
 }
 
@@ -61,12 +61,11 @@ footer {
 .center-container {
   margin-top: 3rem;
 
-  /* Create a flexbox */
+  // Create a flexbox
   display: flex;
-  /* Offset container horizontally */
+  // Offset container horizontally
   justify-content: space-around;
-  /*margin-bottom: 2rem;*/
-  /* Offset container vertically */
+  // Offset container vertically
   align-items: center;
 }
 
@@ -76,32 +75,32 @@ footer {
 
 /* Profile Card */
 .profile-card {
-  /* Make the profile card text have a sans-serif font */
+  // Make the profile card text have a sans-serif font
   font-family: 'PT Sans', sans-serif;
-  /* Add separator beneath the profile card */
+  // Add separator beneath the profile card
   border-bottom: 2px solid #d6d9dc;
 }
 
 .profile-card-title {
-  /* Reduce the space with the subtitle */
+  // Reduce the space with the subtitle
   margin-bottom: 0;
 }
 
 .profile-card-subtitle {
   font-weight: bolder;
   color: #848484;
-  /* Reduce the space with the title */
+  // Reduce the space with the title
   margin-top: 0;
-  /* Reduce the space with the action line */
+  // Reduce the space with the action line
   margin-bottom: 0;
   line-height: 1.75rem;
 }
 
 .profile-card-action {
   line-height: 2rem;
-  /* Reduce the space with the subtitle line */
+  // Reduce the space with the subtitle line
   margin-top: 0;
-  /* Reduce the space with the profile card separator */
+  // Reduce the space with the profile card separator
   margin-bottom: 1rem;
 }
 
@@ -132,12 +131,12 @@ nav > ul > li > a {
 
 /* Main Content */
 .main-content {
-  /* Make the main content have a serif font */
+  // Make the main content have a serif font
   font-family: 'PT Serif', 'Times New Roman', serif;
 }
 
 .main-content > .row {
-  /* Add a separator beneath each row */
+  // Add a separator beneath each row
   border-bottom: 2px solid #d6d9dc;
 }
 
@@ -148,7 +147,7 @@ nav > ul > li > a {
 /* Recent Projects */
 .recent-project > .project-title {
   font-size: 1.4rem;
-  /* Reduce the space with project text */
+  // Reduce the space with project text
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -163,14 +162,14 @@ nav > ul > li > a {
 }
 
 .recent-project > .project-details {
-  /* Reduce the space with the project name */
+  // Reduce the space with the project name
   margin-top: 0.25rem;
-  /* Reduce the space with the project links */
+  // Reduce the space with the project links
   margin-bottom: 0;
 }
 
 .recent-project > .project-links {
-  /* Reduce the space with the project details */
+  // Reduce the space with the project details
   margin-top: 0;
 }
 
@@ -180,7 +179,7 @@ nav > ul > li > a {
 }
 
 .project > .project-title {
-  /* Reduce the space with project dates */
+  // Reduce the space with project dates
   margin-bottom: 0;
 }
 
@@ -196,21 +195,21 @@ nav > ul > li > a {
 .project > .project-dates {
   font-family: 'PT Sans', sans-serif;
   font-size: 1rem;
-  /* Reduce the space with project title */
+  // Reduce the space with project title
   margin-top: 0;
-  /* Reduce the space with project details */
+  // Reduce the space with project details
   margin-bottom: 0;
 }
 
 .project > .project-details {
-  /* Reduce the space with the project dates */
+  // Reduce the space with the project dates
   margin-top: 0;
-  /* Reduce the space with the project links */
+  // Reduce the space with the project links
   margin-bottom: 0;
 }
 
 .project > .project-links {
-  /* Reduce the space with the project details */
+  // Reduce the space with the project details
   margin-top: 0;
 }
 
@@ -249,7 +248,6 @@ nav > ul > li > a {
 }
 
 /* Blog Post */
-
 article {
   .post-content {
     border-bottom: 2px solid #d6d9dc;
