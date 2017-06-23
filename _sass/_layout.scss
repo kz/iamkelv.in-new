@@ -239,15 +239,11 @@ nav > ul > li > a {
 }
 
 /* Blog Post List */
-.blog-intro {
-  font-family: 'PT Sans', sans-serif;
-  color: #aeb1b4;
-}
 
 .post-list {
 
   .post {
-    border-top: 1px solid #d6d9dc;
+    border-bottom: 1px solid #d6d9dc;
 
     .post-date {
       font-family: 'PT Sans', sans-serif;
@@ -268,6 +264,10 @@ nav > ul > li > a {
     .post-details {
       margin-top: 0.5rem;
     }
+  }
+
+  .post:last-of-type {
+    border-bottom: 0;
   }
 
 }
