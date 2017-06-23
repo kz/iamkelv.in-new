@@ -112,7 +112,7 @@ figure {
 }
 
 .profile-card-subtitle {
-  font-weight: bolder;
+  font-weight: 700;
   color: #848484;
   // Reduce the space with the title
   margin-top: 0;
@@ -132,7 +132,7 @@ figure {
 /* Navbar */
 nav {
   font-family: 'PT Sans', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   border-bottom: 2px solid #d6d9dc;
 }
 
@@ -179,7 +179,7 @@ nav > ul > li > a {
 
 .recent-project > .project-title > .project-name {
   font-family: 'PT Sans', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .recent-project > .project-title > .project-languages {
@@ -210,7 +210,7 @@ nav > ul > li > a {
 
 .project > .project-title > .project-name {
   font-family: 'PT Sans', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .project > .project-title > .project-languages {
@@ -247,7 +247,7 @@ nav > ul > li > a {
 
     .post-date {
       font-family: 'PT Sans', sans-serif;
-      font-weight: bold;
+      font-weight: 700;
       color: #9b9b9b;
 
       margin-top: 1rem;
