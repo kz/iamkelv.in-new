@@ -8,4 +8,4 @@ A few of my specific current interests and projects:
 - [Insurtech](https://artificial.io/products) working at Artificial Labs to digitise a traditionally paper-based industry
 - Finding ways to improve traditionally insecure DVRs by building [my own software replacement](https://github.com/kz/swanntools)
 
-I also quite regularly attend hackathons, so you may see me around at them. Outside of computing, [fives](https://www.youtube.com/watch?v=aWNamssrZAY) (squash, but with your hands!) and read sci-fi novels.
+I also quite regularly attend hackathons, so you may see me around at them. Outside of computing, I play [fives](https://www.youtube.com/watch?v=aWNamssrZAY) (squash, but with your hands!) and enjoy reading sci-fi novels.
