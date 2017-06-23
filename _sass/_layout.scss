@@ -1,5 +1,11 @@
 @import "_flex";
 
+$font-family-serif: 'PT Serif', 'Georgia', 'Times New Roman', serif;
+$font-family-sans-serif: 'PT Sans', 'Helvetica', 'Arial', sans-serif;
+$font-family-normal: 400;
+$font-family-bold: 700;
+
+
 /* Basic Styling */
 html {
   // Add a background colour
@@ -11,14 +17,14 @@ html {
 }
 
 h1 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: $font-family-sans-serif;
   font-size: 2rem;
-  letter-spacing: 0.03rem;
+  //letter-spacing: 0.03rem;
 }
 
 h2 {
   font-size: 1.5rem;
-  letter-spacing: 0.03rem;
+  //letter-spacing: 0.03rem;
 }
 
 p {
@@ -42,7 +48,7 @@ a:hover {
 
 footer {
   margin-top: 0.75rem;
-  font-family: 'PT Sans', sans-serif;
+  font-family: $font-family-sans-serif;
   color: #848484;
   text-align: right;
 }
@@ -101,7 +107,7 @@ figure {
 /* Profile Card */
 .profile-card {
   // Make the profile card text have a sans-serif font
-  font-family: 'PT Sans', sans-serif;
+  font-family: $font-family-sans-serif;
   // Add separator beneath the profile card
   border-bottom: 2px solid #d6d9dc;
 }
@@ -112,7 +118,7 @@ figure {
 }
 
 .profile-card-subtitle {
-  font-weight: 700;
+  font-weight: $font-family-bold;
   color: #848484;
   // Reduce the space with the title
   margin-top: 0;
@@ -131,8 +137,8 @@ figure {
 
 /* Navbar */
 nav {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 700;
+  font-family: $font-family-sans-serif;
+  font-weight: $font-family-bold;
   border-bottom: 2px solid #d6d9dc;
 }
 
@@ -157,7 +163,7 @@ nav > ul > li > a {
 /* Main Content */
 .main-content {
   // Make the main content have a serif font
-  font-family: 'PT Serif', 'Times New Roman', serif;
+  font-family: $font-family-serif;
 }
 
 .main-content > .row {
@@ -166,7 +172,7 @@ nav > ul > li > a {
 }
 
 .main-content > .row > h2 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: $font-family-sans-serif;
 }
 
 /* Recent Projects */
@@ -178,12 +184,12 @@ nav > ul > li > a {
 }
 
 .recent-project > .project-title > .project-name {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 700;
+  font-family: $font-family-sans-serif;
+  font-weight: $font-family-bold;
 }
 
 .recent-project > .project-title > .project-languages {
-  font-weight: normal;
+  font-weight: $font-family-normal;
 }
 
 .recent-project > .project-details {
@@ -209,16 +215,16 @@ nav > ul > li > a {
 }
 
 .project > .project-title > .project-name {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 700;
+  font-family: $font-family-sans-serif;
+  font-weight: $font-family-bold;
 }
 
 .project > .project-title > .project-languages {
-  font-weight: normal;
+  font-weight: $font-family-normal;
 }
 
 .project > .project-dates {
-  font-family: 'PT Sans', sans-serif;
+  font-family: $font-family-sans-serif;
   font-size: 1rem;
   // Reduce the space with project title
   margin-top: 0;
@@ -227,6 +233,7 @@ nav > ul > li > a {
 }
 
 .project > .project-details {
+  font-size: 1.1rem;
   // Reduce the space with the project dates
   margin-top: 0;
   // Reduce the space with the project links
@@ -234,6 +241,7 @@ nav > ul > li > a {
 }
 
 .project > .project-links {
+  font-size: 1.1rem;
   // Reduce the space with the project details
   margin-top: 0;
 }
@@ -246,8 +254,8 @@ nav > ul > li > a {
     border-bottom: 1px solid #d6d9dc;
 
     .post-date {
-      font-family: 'PT Sans', sans-serif;
-      font-weight: 700;
+      font-family: $font-family-sans-serif;
+      font-weight: $font-family-bold;
       color: #9b9b9b;
 
       margin-top: 1rem;
@@ -255,7 +263,7 @@ nav > ul > li > a {
     }
 
     .post-title {
-      font-family: 'PT Sans', sans-serif;
+      font-family: $font-family-sans-serif;
 
       margin-top: 0.5rem;
       margin-bottom: 0;
