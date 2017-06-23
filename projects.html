@@ -7,7 +7,7 @@ permalink: /projects/
 
 <div class="row">
     <p>Below is a list of my personal projects. For work-related projects, please see my <a href="/assets/Kelvin%20Zhang%20-%20CV.pdf">CV</a>.</p>
-    {% for project in site.projects %}
+    {% for project in site.projects reversed %}
         <div class="project">
             <h2 class="project-title"><span class="project-name">{{ project.name }}</span>{% if project.languages %}<span class="project-languages"> / {{ project.languages }}</span>{% endif %}</h2>
             <p class="project-dates">{{ project.dates }}</p>
