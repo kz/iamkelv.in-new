@@ -35,6 +35,10 @@ plugins:
 sass:
   style: compressed
 
+gems:
+  - jekyll-last-modified-at
+  - jekyll-sitemap
+
 include: [".well-known"]
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
