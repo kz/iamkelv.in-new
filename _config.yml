@@ -32,12 +32,10 @@ collections:
 markdown: kramdown
 plugins:
   - jekyll-feed
-sass:
-  style: compressed
-
-gems:
   - jekyll-last-modified-at
   - jekyll-sitemap
+sass:
+  style: compressed
 
 include: [".well-known"]
 # Exclude from processing.
