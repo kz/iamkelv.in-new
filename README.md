@@ -1,6 +1,6 @@
 # iamkelv.in
 
-Repository conraining my personal site, [iamkelv.in](https://iamkelv.in/).
+Repository containing my personal site, [iamkelv.in](https://iamkelv.in/).
 
 ## License
 
