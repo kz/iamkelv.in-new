@@ -56,3 +56,4 @@ exclude:
   - .idea
   - "*.___jb_old___"
   - iamkelv.in.iml
+  - README.md
