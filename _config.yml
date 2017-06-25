@@ -26,10 +26,10 @@ disqus:
   shortname: kelvzhan
 
 collections:
-  - posts:
-      output: true
-      permalink: /blog/:year/:month/:date/:title/
-  - projects
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:date/:title/
+  projects
 
 # Build settings
 markdown: kramdown
