@@ -44,6 +44,7 @@ include: [".well-known"]
 exclude:
   - Gemfile
   - Gemfile.lock
+  - LICENSE.md
   - node_modules
   - vendor/bundle/
   - vendor/cache/
