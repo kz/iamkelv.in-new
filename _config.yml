@@ -29,7 +29,7 @@ collections:
   posts:
     output: true
     permalink: /blog/:year/:month/:date/:title/
-  - projects
+  projects:
 
 # Build settings
 markdown: kramdown
