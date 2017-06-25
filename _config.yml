@@ -28,7 +28,7 @@ disqus:
 collections:
   posts:
     output: true
-    permalink: /blog/:year/:month/:date/:title/
+    permalink: /blog/:year/:month/:day/:title.html
   projects:
 
 # Build settings
