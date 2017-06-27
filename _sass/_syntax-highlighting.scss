@@ -1,11 +1,18 @@
 /**
  * Syntax highlighting styles
  */
+ 
+.highlighter-rouge {
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+ 
 .highlight {
   background: #fff;
 
   .highlighter-rouge & {
-    background: #eef;
+    background: #eff;
   }
 
   .c     { color: #998; font-style: italic } // Comment
