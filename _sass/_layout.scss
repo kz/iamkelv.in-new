@@ -53,14 +53,12 @@ footer {
   text-align: right;
 }
 
-.enable-js {
-  line-height: 1.75rem;
+code {
+    font-size: 1rem;
 }
 
-@media screen and (max-width: 500px) {
-  code {
-    font-size: 1rem;
-  }
+.enable-js {
+  line-height: 1.75rem;
 }
 
 /* Color bar (because why not?) */
