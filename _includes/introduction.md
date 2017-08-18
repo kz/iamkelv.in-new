@@ -1,4 +1,4 @@
-Hi, I'm an aspiring software engineer and student from London, UK. I'm currently a software developer at [Artificial Labs](https://artificial.io/).
+Hi, I'm an aspiring software engineer and student from London, UK. I'm currently a software developer at [Artificial Labs](https://artificial.io/) and studying MEng Computing (Artificial Intelligence) at Imperial College London.
 
 If you're a recruiter, take a look at my [CV](/assets/Kelvin%20Zhang%20-%20CV.pdf). You can also find more details about me and my projects below. I also post on my [blog](/blog/) every now and then. Also, check out my [GitHub](https://github.com/kz)!
 
