@@ -32,4 +32,6 @@ bundle exec htmlproofer ./_site --disable-external
 
 ## License
 
-This site is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT). See [LICENSE.md](LICENSE.md) for more details.
+The CSS and boilerplate for this site is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT). See [LICENSE.md](LICENSE.md) for more details.
+
+All other content, including blog posts and textual content, are _not_ open source (i.e., the MIT License does _not_ cover this) and the copyright is held by the author.
