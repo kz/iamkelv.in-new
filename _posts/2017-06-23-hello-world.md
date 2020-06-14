@@ -7,7 +7,7 @@ excerpt: "A few words on redesigning my website with Jekyll and the blog posts t
 
 (This post is more of a ramble than anything. The blog posts which follow will have much more interesting content!)
 
-For the past year, I have felt the urge to revamp my [old website](https://old.iamkelv.in/). Not only using a theme removed quite a lot of control from me, but the amount of plugins made the website feel lacking in performance (and not to mention, the horrible jQuery scrolljacking!). Likewise, I've frequently had ideas of topics to blog about (usually related to my projects), but [Medium](https://medium.com/) simply felt like the wrong medium (pun not intended) for a technical blog.
+For the past year, I have felt the urge to revamp my old website. Not only using a theme removed quite a lot of control from me, but the amount of plugins made the website feel lacking in performance (and not to mention, the horrible jQuery scrolljacking!). Likewise, I've frequently had ideas of topics to blog about (usually related to my projects), but [Medium](https://medium.com/) simply felt like the wrong medium (pun not intended) for a technical blog.
 
 In the past week, I finally found the motivation to go ahead and work on this project. The requirements for a new site were as follows:
 
