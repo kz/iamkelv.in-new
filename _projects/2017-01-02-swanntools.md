@@ -5,5 +5,6 @@ dates: January 2017 - Current
 links:
     - url: https://github.com/kz/swanntools
       text: GitHub (Source Code)
+pre_uni_showcase: true
 ---
 Reverse engineering and building capture tools for the Swann DVR4-1200. Involved finding vulnerabilities, writing detection scripts and building a software abstraction layer to replace the DVR's client interface.

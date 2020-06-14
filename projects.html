@@ -4,15 +4,44 @@ title: Projects
 permalink: /projects/
 ---
 
-
 <div class="row">
-    <p>Below is a list of my personal projects. For work-related projects, please see my <a href="/assets/Kelvin%20Zhang%20-%20CV.pdf">CV</a>.</p>
+    <p>
+        As I move from secondary school to university to work, my free time has transitioned from being spent on building
+        apps for fun to various leadership and volunteering positions (described in detail over on my
+        <a href="https://www.linkedin.com/in/kelvzhan/">LinkedIn</a> profile). As software engineering projects become
+        my full-time work through university and my early career, this page will become ever-dormant with programming-heavy
+        side projects, but I will be sure to keep my LinkedIn and <a href="https://twitter.com/KelvZhan">Twitter</a> up
+        to date with my latest ventures!
+    </p>
+
+
+
+    <p>
+        <em>An important disclaimer:</em>
+        A few notable projects created in my free time over the years can be found below. Missing from the list below, however,
+        is the journey I took to develop my passion in software engineering: I still vividly remember finding my first
+        programming book at aged ten (<em>Visual Basic for Dummies</em>), building my
+        <a href="https://github.com/kz/four-beat-tempo">first Android app</a> in 2014, going to my first hackathon (MLH
+        Launch Hack, which also happened to be the first ever Major League Hacking hackathon in the UK) the same October,
+        followed by building my first mock-startup in a summer camp at Boston at <a href="https://www.leangap.org/">Leangap</a>
+        in 2015.
+    </p>
+
+    <p>
+        I've been coding for a <em>long</em> time and you can find 50+ other projects <a href="https://github.com/kz?tab=repositories&q=&type=source&language=">on GitHub</a>,
+        but do bear in mind that the majority of these were built before university, at a time where my focus was solely
+        on coding, contrasting against my current focus of developing well-rounded software engineering and leadership
+        skills.
+    </p>
+
     {% for project in site.projects reversed %}
-        <div class="project">
-            <h2 class="project-title"><span class="project-name">{{ project.name }}</span>{% if project.languages %}<span class="project-languages"> / {{ project.languages }}</span>{% endif %}</h2>
-            <p class="project-dates">{{ project.dates }}</p>
-            <p class="project-details">{{ project.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-            <p class="project-links">{% if project.links %}{% for link in project.links %}<a href="{{ link.url }}">{{ link.text }}</a>{% unless forloop.last %} | {% endunless %}{% endfor %}{% endif %}</p>
-        </div>
+        {% if project.pre_uni_showcase %}
+            <div class="project">
+                <h2 class="project-title"><span class="project-name">{{ project.name }}</span>{% if project.languages %}<span class="project-languages"> / {{ project.languages }}</span>{% endif %}</h2>
+                <p class="project-dates">{{ project.dates }}</p>
+                <p class="project-details">{{ project.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+                <p class="project-links">{% if project.links %}{% for link in project.links %}<a href="{{ link.url }}">{{ link.text }}</a>{% unless forloop.last %} | {% endunless %}{% endfor %}{% endif %}</p>
+            </div>
+        {% endif %}
     {% endfor %}
 </div>
